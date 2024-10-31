@@ -17,4 +17,15 @@
 // echo ("Hello World!")
 // echo ("Hello World!")
 // That's it.
-
+// Theres a forth way to comment in php with vscode and it's here.
+/* 
+echo ("Hello World!")
+echo ("Hello World!")
+echo ("Hello World!")
+echo ("Hello World!")
+echo ("Hello World!")
+echo ("Hello World!")
+echo ("Hello World!")
+echo ("Hello World!")
+*/
+// You can use /* Comment */ syntax
