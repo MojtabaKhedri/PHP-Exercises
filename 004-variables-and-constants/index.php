@@ -115,7 +115,7 @@
         echo BASEURL;
         // echo $txt;
     }
-    echo test();
+    test();
     echo "<hr>";
     ?>
 </body>
