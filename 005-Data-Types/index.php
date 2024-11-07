@@ -14,9 +14,7 @@
     let's start with integer
     PHP Integer
     An integer data type is a non-decimal number between -2,147,483,648 and 2,147,483,647.
-
     Rules for integers:
-
     An integer must have at least one digit
     An integer must not have a decimal point
     An integer can be either positive or negative
@@ -34,9 +32,42 @@
     echo ($b);
     echo "<br>";
     var_dump($b);
+    echo "<hr>";
+/*
+    HexaDecimal
+    */
+    $c = hexdec("01B0");
+    echo ($c);
     echo "<br>";
-    $c = ;
-    echo ($a);
+    var_dump($c);
     echo "<br>";
-    var_dump($a);
+    $d = hexdec("f43");
+    echo $d;
     echo "<br>";
+    var_dump($d);
+    echo "<hr>";
+/*
+    Octal
+    */
+    $e = octdec("67");
+    echo $e;
+    echo "<br>";
+    var_dump($e);
+    echo "<br>";
+    $f = octdec("f43");
+    echo $f;
+    echo "<br>";
+    var_dump($f);
+    echo "<hr>";
+/*
+    Binary
+    */
+    $g = decbin(34);
+    echo $g;
+    echo "<br>";
+    var_dump($g);
+    echo "<br>";
+    $h = decbin(511);
+    echo $h;
+    var_dump($h);
+    
